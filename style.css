@@ -1,0 +1,138 @@
+#counter {
+  text-align: center;
+  font-size: 3em;
+  display: block;
+}
+#btnCon {
+  text-align: center;
+}
+.button {
+  padding: 10px;
+  color: black;
+  background-color: yellow;
+  font-size: 1em;
+  border-radius: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  color: brown;
+}
+.todo {
+  margin-top: 15px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.hamburger {
+  display: none;
+  margin-top: 20px;
+}
+.bar {
+  width: 30px;
+  border-top: 5px solid black;
+  margin-bottom: 3px;
+}
+.mobilenav {
+  display: none;
+}
+
+.container {
+  max-width: 600px;
+  margin-top: 50px;
+}
+.gallery-image {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.enlarged {
+  width: 400px;
+}
+
+.form {
+  border: 2px solid white;
+  width: 600px;
+  height: 600px;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 40px auto;
+  
+}
+.form button{
+  padding: 10px;
+  width: 100px;
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.form-control{
+  width: 80%;
+  margin-bottom: 50px;
+  position: relative;
+
+}
+.form-control label {
+  display:inline-block;
+  margin-bottom: 10px;
+  
+}
+.form-control input{
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  /* border: none; */
+}
+.form-control.success input{
+  border: 1px solid green;
+}
+.form-control.error input{
+  border: 1px solid red;
+}
+.form-control span {
+  font-size: 14px;
+  visibility: hidden;
+}
+.form-control.error span{
+  color: red;
+  visibility: visible;
+}
+/* .form-control name [alert-circle-outline]{
+
+  position: absolute;
+  ;
+  
+} */
+
+@media screen and (max-width: 320px) {
+  .hamburger {
+    display: flex;
+  }
+  .hidehide {
+    display: none;
+  }
+  .todo {
+    display: none;
+  }
+  #mobilena {
+    list-style-type: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+  }
+  #mobilena li {
+    padding: 30px 8px;
+  }
+}
